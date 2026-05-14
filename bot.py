@@ -8,7 +8,7 @@ import string
 import os
 
 # ============================
-BOT_TOKEN       = "YOUR_BOT_TOKEN"
+BOT_TOKEN       = os.environ.get("BOT_TOKEN", "")
 ADMIN_IDS       = [1299861151248814102]
 DOWNLOAD_URL    = "https://example.com/download"
 PANEL_IMAGE_URL = ""
